@@ -93,6 +93,9 @@ homeBtn.addEventListener("click",(event)=>{
     document.body.style.height='auto';
 })
 
+//첫 화면
+pages[0].style.animation="fadein 1s ease-in"
+
 window.addEventListener("scroll",()=>{
     var value=window.scrollY;
     console.log(value,menuSelected);
